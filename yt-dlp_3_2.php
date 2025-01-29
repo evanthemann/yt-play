@@ -9,19 +9,13 @@
     <h1>Test</h1>
 
     <!-- Section 1: Get Format Options -->
-    <h2>HEre's what you put for url</h2>
+    <h2>Here's the command</h2>
 
 <?php
-
-    // Test shell_exec to print 'Hello, World' using a shell command
-    $output = shell_exec('echo "Hello, World"');
-    echo "<pre>$output</pre>";
 
     // Check if url provided
 
     $url = isset($_GET['url']) ? $_GET['url'] : '';
-
-    echo "<pre>$url</pre>";
 
     echo "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url > logfile.txt 2>&1 &";
 
