@@ -17,8 +17,6 @@
 
     $url = isset($_GET['url']) ? $_GET['url'] : '';
 
-    // echo "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url > logfile.txt 2>&1 &";
-
     $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url > logfile.txt 2>&1 &";
 
     echo $command
