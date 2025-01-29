@@ -21,6 +21,13 @@
         } else {
             echo "No command received.";
         }
+
+        // Execute the command and capture the output
+        $output = shell_exec($builtCommand);
+
+        // Display the terminal output after running the command
+        echo "<h3>Command Output:</h3><pre>$output</pre>";
+
     ?>
 
 
