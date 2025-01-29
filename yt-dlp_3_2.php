@@ -25,7 +25,7 @@
 
     $logfile = logfile.txt;
 
-    $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url > $logfile 2>&1 &";
+    $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir";
 
     echo "<pre>$command</pre>";
 
