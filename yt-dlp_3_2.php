@@ -28,6 +28,7 @@
     $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir";
 
     echo "<pre>$command</pre>";
+    echo "hello"
 
 ?>
 
