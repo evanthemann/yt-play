@@ -23,7 +23,7 @@
 
     echo "<pre>$url</pre>";
 
-    echo "test $url test again";
+    echo "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url > logfile.txt 2>&1 &";
 
 ?>
 
