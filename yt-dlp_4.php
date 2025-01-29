@@ -8,7 +8,7 @@
 
     if ($url) {
         
-        $logfile = logfile.txt
+        $logfile = logfile.txt;
 
         //sanitize input
         $escaped_url = escapeshellarg($url);
