@@ -24,7 +24,7 @@
     ?>
 
     <!-- Form to input file name and run the command -->
-    <form method="post">
+    <form method="get">
         <label for="filename">Enter the command to execute:</label>
         <input type="text" id="filename" name="filename" required>
         <button type="submit" name="run_command">Execute Command</button>

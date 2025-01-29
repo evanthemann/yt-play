@@ -23,6 +23,11 @@
 
 ?>
 
+<form method="post" action="yt-dlp_3_3.php">
+    <input type="text" name="builtCommand">
+    <button type="submit">Submit</button>
+</form>
+
 
 </body>
 </html>
