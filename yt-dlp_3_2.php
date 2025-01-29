@@ -19,7 +19,7 @@
 
     $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $url";
 
-    echo "<pre>$command</pre>"
+    echo "<pre>$command</pre>";
 
     // Check if url provided
 
