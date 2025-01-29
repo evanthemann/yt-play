@@ -23,6 +23,8 @@
 
     echo "<pre>$url</pre>";
 
+    echo "test $url test again";
+
 ?>
 
 
