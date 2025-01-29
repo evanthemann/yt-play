@@ -14,7 +14,7 @@
 <?php
 
     // Test shell_exec to print 'Hello, World' using a shell command
-    $output = shell_exec('echo "Hello again, World"');
+    $output = shell_exec('echo "Hello, World"');
     echo "<pre>$output</pre>";
 
     // Check if url provided
@@ -22,13 +22,6 @@
     $url = isset($_GET['url']) ? $_GET['url'] : '';
 
     echo "<pre>$url</pre>";
-
-    $logfile = logfile.txt;
-
-    $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir";
-
-    echo "<pre>$command</pre>";
-    echo "hello"
 
 ?>
 
