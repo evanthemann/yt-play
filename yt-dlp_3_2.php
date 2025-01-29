@@ -21,14 +21,10 @@
 
     $url = isset($_GET['url']) ? $_GET['url'] : '';
 
+    echo "<pre>$url</pre>";
+
 ?>
 
-        $url = isset($_GET['url']) ? $_GET['url'] : '';
-    <form action="yt-dlp_4.php" method="get">
-        <label for="url">YouTube URL:</label><br>
-        <input type="text" id="url" name="url" required><br>
-        <button type="submit">Get Formats</button>
-    </form>
 
 </body>
 </html>

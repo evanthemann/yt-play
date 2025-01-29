@@ -10,7 +10,7 @@
 
     <!-- Section 1: Get Format Options -->
     <h2>Enter URL for yt-dlp</h2>
-    <form action="yt-dlp_4.php" method="get">
+    <form action="yt-dlp_3_2.php" method="get">
         <label for="url">YouTube URL:</label><br>
         <input type="text" id="url" name="url" required><br>
         <button type="submit">Get Formats</button>
