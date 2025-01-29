@@ -17,6 +17,10 @@
     $output = shell_exec('echo "Hello, World"');
     echo "<pre>$output</pre>";
 
+    $command = "nohup /usr/local/bin/yt-dlp -F --no-cache-dir $escaped_url > $logfile 2>&1 &";
+
+    echo "<pre>$command</pre>"
+
     // Check if url provided
 
     $url = isset($_GET['url']) ? $_GET['url'] : '';
