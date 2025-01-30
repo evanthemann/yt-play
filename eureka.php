@@ -18,6 +18,15 @@
         <button type="submit">Get Formats</button>
     </form>
 
+    <!-- Section 2: Download  -->
+    <h2>Enter URL and formats to download</h2>
+    <form action="eureka_4_download.php" method="post">
+        <label for="url">YouTube URL:</label><br>
+        <input type="text" id="fmt1" name="fmt1" required><br>
+        <input type="text" id="fmt2" name="fmt2" required><br>
+        <button type="submit">Download</button>
+    </form>
+
     <p>Do you have a command going? <a href="eureka_3_check.php">Check status</a>.</p>
 
 </body>
