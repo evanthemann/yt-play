@@ -32,5 +32,8 @@
 
     <p>Do you have a command going? <a href="eureka_3_check.php">Check status</a>.</p>
 
+    <a href="reboot.php">Reboot</a>
+    <a href="shutdown.php">Shutdown</a>
+
 </body>
 </html>
