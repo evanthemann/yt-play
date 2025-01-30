@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YT-DLP Eureka</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 </head>
 <body>
     <h1>YT-DLP Eureka</h1>
@@ -15,7 +17,7 @@
 
     $output = shell_exec("cat logfile.txt");
 
-    echo $output;
+    echo "<pre>$output</pre>";
 
 ?>
 
