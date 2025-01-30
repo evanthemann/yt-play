@@ -18,5 +18,7 @@
         <button type="submit">Get Formats</button>
     </form>
 
+    <p>Do you have a command going? <a href="eureka_3_check.php">Check status</a>.</p>
+
 </body>
 </html>

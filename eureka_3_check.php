@@ -11,7 +11,7 @@
     <h1>YT-DLP Eureka</h1>
 
     <!-- Section 1: Get Format Options -->
-    <h2>Here's the progress...</h2>
+    <h2>Here's the progress...</h2> <a href="eureka.php">Go back</a> 
 
 <?php
 
